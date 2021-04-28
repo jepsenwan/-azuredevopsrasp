@@ -17,7 +17,7 @@ steps:
     appID: 'web'
     consoleHost: 'https://us-east1.cloud.twistlock.com/'
     dataFolder: '/twistlock'
-    dockerfile: '**/Dockerfile'
+    dockerfile: '/home/ec2-user/dockerimagebuild/**Dockerfile'
 
 
 - script: |
