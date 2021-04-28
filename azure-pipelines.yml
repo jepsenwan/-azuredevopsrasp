@@ -13,12 +13,11 @@ steps:
   displayName: 'Run a one-line script'
 - task: twistcli-rasp@1
   inputs:
-    twistlockService: 'App2'
-    appID: 'web'
-    consoleHost: 'https://us-east1.cloud.twistlock.com/'
+    twistlockService: 'twistlock.acloudpro.com'
+    appID: 'web2'
+    consoleHost: 'https://172.17.0.3:8083'
     dataFolder: '/twistlock'
-    dockerfile: '/home/ec2-user/dockerimagebuild/Dockerfile'
-
+    dockerfile: '**/Dockerfile'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
