@@ -16,7 +16,7 @@ steps:
     twistlockService: '172.17.0.3'
     appID: 'web2'
     consoleHost: 'https://172.17.0.3:8083'
-    dataFolder: '/'
+    dataFolder: '/twistlock'
     dockerfile: '/home/ec2-user/dockerimagebuild/Dockerfile'
 
 - script: |
