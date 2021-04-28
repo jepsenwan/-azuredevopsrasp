@@ -13,7 +13,7 @@ steps:
   displayName: 'Run a one-line script'
 - task: twistcli-rasp@1
   inputs:
-    twistlockService: 'twistlock.acloudpro.com'
+    twistlockService: '172.17.0.3'
     appID: 'web2'
     consoleHost: 'https://172.17.0.3:8083'
     dataFolder: '/twistlock'
