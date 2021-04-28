@@ -17,7 +17,7 @@ steps:
     appID: 'web2'
     consoleHost: 'https://172.17.0.3:8083'
     dataFolder: '/twistlock'
-    dockerfile: '**/Dockerfile'
+    dockerfile: '/home/ec2-user/dockerimagebuild/Dockerfile'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
