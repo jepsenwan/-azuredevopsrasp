@@ -13,9 +13,9 @@ steps:
   displayName: 'Run a one-line script'
 - task: twistcli-rasp@1
   inputs:
-    twistlockService: '172.17.0.3'
+    twistlockService: '172.17.0.2'
     appID: 'web2'
-    consoleHost: 'https://172.17.0.3:8083'
+    consoleHost: 'https://172.17.0.2:8083'
     dataFolder: '/twistlock'
     dockerfile: '/home/ec2-user/dockerimagebuild/Dockerfile'
 
